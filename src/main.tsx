@@ -6,7 +6,7 @@ import Contact from './Contact.tsx'
 import DrawerAppBar from './Header.tsx'
 import Footer from './Footer.tsx';
 import Volunteer from './Volunteer.tsx'
-import './firebase';
+import '/firebase';
 
 ReactDOM.createRoot(document.getElementById('root')as HTMLElement).render(
   <React.StrictMode>

@@ -68,7 +68,7 @@ const home: React.FunctionComponent = () => {
               <Typography variant="body2" color="text.secondary" fontFamily={'"BIZ UDPGothic"'}>
                 参加高校生の募集は終了しました。<br />
                 募集要項をご覧になれます。<br />
-                数十組の出演高校生情報も随時更新予定です。出演者ページ準備中
+                数十組の出演高校生情報も随時更新予定です。
               </Typography>
             </CardContent>
             <CardActions>
