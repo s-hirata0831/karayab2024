@@ -9,6 +9,7 @@
 - React(ビルドツール: Vite)
 - MUI
 - TypeScript
+- Firebase(Hosting)
 - HTML/CSS
 - JavaScript
 
