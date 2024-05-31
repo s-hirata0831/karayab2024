@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@700&display=swap");
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeOut 1.5s 2.5s forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.loadingLogo {
+  opacity: 0;
+  animation: logo_fade 2s 0.5s forwards;
+  width: 45vh;
+}
+
+@keyframes logo_fade {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.headerArea {
+  position: relative;
+  height: 100vh;
+}
+
+.videoArea {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 56.25vw;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.title {
+  font-family: "Shippori Mincho", serif;
+  font-style: normal;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  color: rgb(55, 33, 131);
+  text-shadow: 0 0 15px white;
+  font-size: clamp(5px, 8vw, 70px);
+}
+
+.word2 {
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.word {
+  font-style: normal;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: word 9s infinite ease-in-out;
+  font-size: clamp(5px, 8vw, 70px);
+}
+.word:nth-child(1) {
+  animation-delay: -9s;
+}
+.word:nth-child(2) {
+  animation-delay: -6s;
+}
+.word:nth-child(3) {
+  animation-delay: -3s;
+}
+@keyframes word {
+  0%,
+  5%,
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+  20%,
+  80% {
+    filter: blur(1px);
+    opacity: 0;
+  }
+}
+
+.day {
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+  color: rgb(55, 33, 131);
+  text-shadow: 0 0 15px white;
+  text-align: center;
+  font-size: clamp(5px, 3vw, 15px);
+}
+
+.underDay {
+  color: black;
+}
+
+.spot {
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+  text-shadow: 0 0 15px white;
+  font-size: clamp(5px, 3vw, 15px);
+  text-align: center;
+}
+
+.concept {
+  background: rgba(0, 0, 0, 0.5);
+  background: white;
+  clip-path: polygon(0 0, 100% 10vw, 100% 100%, 0 calc(100% - 10vw));
+}
+
+.firstArea {
+  text-align: center;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 700;
+  font-size: clamp(5px, 3vw, 20px);
+}
+
+span.headerFont {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-style: normal;
+  font-size: clamp(5px, 3.5vw, 30px);
+}
+
+.semiTitle {
+  padding-top: 20px;
+}
+
+.about {
+  background: white;
+}
+
+.student {
+  margin-top: -50px;
+}
+
+.subject {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-style: normal;
+  font-size: clamp(20px, 15vw, 40px);
+  text-align: center;
+  margin-top: -75px;
+  margin-bottom: -25px;
+  margin: 0;
+}
+
+.timeLine {
+  margin: 0 auto;
+}
+
+.h3Student {
+  margin: 0;
+  padding: 0;
+}
