@@ -1,7 +1,12 @@
-.footer {
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  color: black;
-  text-shadow: 0 0 15px white;
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@700&display=swap");
+
+.ftTitle {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-style: normal;
+}
+
+.ftTypography {
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-style: normal;
 }
