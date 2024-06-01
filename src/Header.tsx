@@ -15,6 +15,10 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import ListItemText from '@mui/material/ListItemText';
 import { useScrollTrigger } from '@mui/material';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import Link from '@mui/material/Link';
+import Grid from '@mui/material/Grid';
+import MailIcon from '@mui/icons-material/Mail';
 
 interface Props {
   /**
@@ -41,6 +45,15 @@ function DrawerAppBar(props: Props) {
         KARAYAB2024
       </Typography>
       </NavLink>
+      <Grid container direction="row" justifyContent="center" alignItems="flex-start">
+      <Link href="https://www.instagram.com/karayab_2024">
+        <InstagramIcon style={{color:"black"}} />
+      </Link>
+      <Typography style={{color: "white"}}>__</Typography>
+      <Link href="mailto:karayab2024@gmail.com">
+        <MailIcon style={{ color: "black" }} />
+      </Link>
+      </Grid>
       <Divider />
       <List>
           <ListItem disablePadding>
@@ -125,6 +138,11 @@ function DrawerAppBar(props: Props) {
                 運営ボランティア
               </Button>
             </NavLink>
+            <Link href="https://www.instagram.com/karayab_2024">
+              <Button sx={{color: "white"}}>
+                <InstagramIcon style={{ color: "white" }} />
+              </Button>
+            </Link>
           </Box>
         </Toolbar>
       </AppBar>
