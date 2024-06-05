@@ -6,7 +6,9 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Grid from '@mui/material/Grid';
 import MailIcon from '@mui/icons-material/Mail';
-import './Footer.css'
+import { StyledEngineProvider } from '@mui/material';
+import CssBaseline from '@mui/material/CssBaseline';
+import './App.css'
 
 function Copyright() {
   return (
@@ -30,6 +32,8 @@ const footerInfo : FooterProps = {description: "みんなの好きが集まる�
 
 export default function Footer() {
   return (
+    <StyledEngineProvider injectFirst>
+    <CssBaseline />
     <Box component="footer" sx={{ bgcolor: 'black', py: 3 }}>
       <Container maxWidth="lg">
         <Typography variant="h5" align="center" gutterBottom color="white" className="ftTitle">
@@ -60,5 +64,6 @@ export default function Footer() {
         <Copyright />
       </Container>
     </Box>
+    </StyledEngineProvider>
   );
 }

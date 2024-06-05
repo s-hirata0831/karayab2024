@@ -6,7 +6,9 @@ import Contact from './Contact.tsx'
 import DrawerAppBar from './Header.tsx'
 import Footer from './Footer.tsx';
 import Volunteer from './Volunteer.tsx'
-import '/firebase';
+import Performer from './Performer.tsx'
+import PanfPdf from './components/PanfPdf.tsx'
+import './firebase';
 
 ReactDOM.createRoot(document.getElementById('root')as HTMLElement).render(
   <React.StrictMode>
@@ -15,7 +17,9 @@ ReactDOM.createRoot(document.getElementById('root')as HTMLElement).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="volunteer" element={<Volunteer />} />
+        <Route path="/volunteer" element={<Volunteer />} />
+        <Route path="/Performer" element={<Performer />} />
+        <Route path="/pdf/panf" element={<PanfPdf />} />
       </Routes>
       <Footer />
     </BrowserRouter>

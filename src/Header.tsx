@@ -73,7 +73,7 @@ function DrawerAppBar(props: Props) {
           <ListItem disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }} style={{color: 'black', textAlign: 'center'}}>
               <NavLink style={{ color: "black", textDecoration: 'none' }} to="/volunteer">
-                <ListItemText primary="運営ボランティア" />
+                <ListItemText primary="ボランティア" />
               </NavLink>
             </ListItemButton>
           </ListItem>
@@ -135,7 +135,12 @@ function DrawerAppBar(props: Props) {
             </NavLink>
             <NavLink style={{ color: "white", textDecoration: 'none' }} to="/volunteer">
               <Button sx={{ color: "white" }}>
-                運営ボランティア
+                ボランティア
+              </Button>
+            </NavLink>
+            <NavLink style={{ color: "white", textDecoration: 'none' }} to="/performer">
+              <Button sx={{ color: "white" }}>
+                参加者の方へ
               </Button>
             </NavLink>
             <Link href="https://www.instagram.com/karayab_2024">
