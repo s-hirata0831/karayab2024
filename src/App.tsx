@@ -47,7 +47,7 @@ const home: React.FunctionComponent = () => {
           <h1>みんなの好きが集まる場所</h1>
           </span>
           <h3>高校生が自分の得意を発表できるイベント！<br/>歌、ダンス、写真、イラスト、キッチンカー、フリマなどなど。<br/>自分達の好きなことややってみたいことを<br/>舞鶴の高校生で作り上げる<br/>なんでもありのイベントで表現します！</h3><br />
-          <NavLink to='/pdf/panf'>チラシ</NavLink>
+          <a target="_blank" href="https://raw.githubusercontent.com/s-hirata0831/karayab2024/main/src/tmp/KARAYABチラシPDF.pdf">チラシ</a>
           {/*<h3>特技・好きなことはあるけど人前に出せるほどでもない...<br/>みんなに見てもらいたいけどそんな機会ないしなぁ...<br/>そんなあなたに人前で披露し褒められ応援される経験を！<br/>KARAYABは自信を持って堂々と活動する第一歩を提供します。</h3>*/}
         </div>
       </div>
