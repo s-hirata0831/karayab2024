@@ -19,7 +19,9 @@ ReactDOM.createRoot(document.getElementById('root')as HTMLElement).render(
         <Route path="/contact" element={<Contact />} />
         <Route path="/volunteer" element={<Volunteer />} />
         <Route path="/Performer" element={<Performer />} />
-        <Route path="/pdf/panf" element={<PanfPdf />} />
+        <Route path="/pdf" element={<PanfPdf />} >
+          <Rote path="/panf" element={<PanfPdf />} />
+        </Route>
       </Routes>
       <Footer />
     </BrowserRouter>
