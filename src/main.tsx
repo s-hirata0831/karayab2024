@@ -8,6 +8,7 @@ import Footer from './Footer.tsx';
 import Volunteer from './Volunteer.tsx'
 import Performer from './Performer.tsx'
 import PanfPdf from './components/PanfPdf.tsx'
+import NotFound from './NotFound.tsx'
 import './firebase';
 
 ReactDOM.createRoot(document.getElementById('root')as HTMLElement).render(
@@ -19,9 +20,8 @@ ReactDOM.createRoot(document.getElementById('root')as HTMLElement).render(
         <Route path="/contact" element={<Contact />} />
         <Route path="/volunteer" element={<Volunteer />} />
         <Route path="/Performer" element={<Performer />} />
-        <Route path="/pdf" element={<PanfPdf />} >
-          <Rote path="/panf" element={<PanfPdf />} />
-        </Route>
+        <Route path="/pdf_panf" element={<PanfPdf />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>
