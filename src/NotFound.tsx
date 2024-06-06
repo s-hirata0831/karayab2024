@@ -9,8 +9,8 @@ const NotFound: React.FunctionComponent = () => {
         <StyledEngineProvider injectFirst>
             <CssBaseline />
             <div className="body">
-            <h1>404 NotFound</h1>
-            <p>お探しのページは見つかりませんでした。</p>
+            <h1 className="title404">404 NotFound</h1>
+            <p className="text404">お探しのページは見つかりませんでした。</p>
             <NavLink to="/">Homeへ戻る</NavLink>
             </div>
         </StyledEngineProvider>

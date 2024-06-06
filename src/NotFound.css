@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@700&display=swap");
 
-h1 {
+.title404 {
   font-family: "Shippori Mincho", serif;
   font-style: normal;
 }
 
-p {
+.text404 {
   font-family: "BIZ UDPGothic", sans-serif;
   font-style: normal;
 }
