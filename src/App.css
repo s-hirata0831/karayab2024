@@ -137,6 +137,12 @@
   font-size: clamp(5px, 3vw, 15px);
 }
 
+.sp {
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
 .underDay {
   color: black;
 }

@@ -25,6 +25,7 @@ import { StyledEngineProvider } from '@mui/material';
 import Link from '@mui/material/Link';
 import Iframe from "react-iframe";
 import sponcer from './tmp/sponcer.jpg';
+import specialThanks from './tmp/specialThanks.jpg';
 
 const home: React.FunctionComponent = () => {
   window.scrollTo({top: 0, behavior: "instant"})
@@ -179,6 +180,9 @@ const home: React.FunctionComponent = () => {
           </span>
           <h3>ご協賛いただきありがとうございます！</h3>
           <Grid container direction="column" justifyContent="flex-end" alignItems="center">
+            <h3 className='sp'>特別協力(音響協力)</h3>
+            <CardMedia component="img" width="600" image={specialThanks} alt="layout" sx={{objectFit: 'contain' }} style={{width: '50vw', margin: 0}} />
+            <h3 className='sp'>協賛</h3>
             <CardMedia component="img" width="600" image={sponcer} alt="layout" sx={{objectFit: 'contain' }} style={{width: '70vw'}} />
           </Grid>
         </div>
