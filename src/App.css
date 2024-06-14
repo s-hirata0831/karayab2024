@@ -180,7 +180,24 @@
   font-family: "Zen Kurenaido", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: clamp(5px, 3.5vw, 30px);
+  font-size: clamp(25px, 3.5vw, 30px);
+}
+
+.studentArea {
+  text-align: center;
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 700;
+  font-size: clamp(5px, 3vw, 20px);
+}
+
+.scheduleArea h2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(25px, 3.5vw, 30px);
 }
 
 span.headerFont {
