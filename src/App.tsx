@@ -78,7 +78,7 @@ const home: React.FunctionComponent = () => {
           </Grid>
           <Grid container direction="column" justifyContent="flex-end" alignItems="center">
           <Link href="https://www.instagram.com/karayab_2024">
-          <Alert variant='outlined' icon={<InstagramIcon fontSize="inherit" />} severity='success'>
+          <Alert variant='outlined' icon={<InstagramIcon fontSize="inherit" />} severity='success' style={{marginLeft: '5px', marginRight: '5px'}}>
            Instagramで情報発信中！当日インスタライブも実施予定！
           </Alert>
           </Link>
