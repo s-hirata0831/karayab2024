@@ -130,7 +130,8 @@ const home: React.FunctionComponent = () => {
               </Typography>
               <Typography variant="body2" color="text.secondary" fontFamily={'"BIZ UDPGothic"'}>
                 KARAYABイベント当日に運営を一緒にしてくれる高校生を募集します！<br />
-                一緒にKARAYABを盛り上げませんか？
+                一緒にKARAYABを盛り上げませんか？<br />
+                (募集は終了しました。)
               </Typography>
             </CardContent>
             <Tooltip disableFocusListener title="高校生ボランティア募集中！" placement="left-start">

@@ -8,13 +8,13 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import HowToRegIcon from '@mui/icons-material/HowToReg';
 import CelebrationIcon from '@mui/icons-material/Celebration';
-import LaunchIcon from '@mui/icons-material/Launch';
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import Chip from "@mui/material/Chip";
 import volunteer from './tmp/event.jpg';
 import ChatIcon from '@mui/icons-material/Chat';
 import CardMedia from '@mui/material/CardMedia';
+import Alert from '@mui/material/Alert';
 import './App.css'
 
 const Volunteer: React.FunctionComponent = () =>{
@@ -28,6 +28,11 @@ const Volunteer: React.FunctionComponent = () =>{
                     <CardMedia component="img" width="600" image={volunteer} alt="student" sx={{ maxHeight: 345, objectFit: 'contain' }} />
                     <h3 className="h3Student"><span className="subjectUnder">運営ボランティア<br />(高校生限定)</span></h3>
                 </div>
+                <Grid container direction="column" justifyContent="center" alignItems="center" style={{marginTop: '50px'}}>
+                <Alert severity='warning'>
+                    <Typography fontFamily={'"BIZ UDPGothic"'}>運営ボランティアの募集は終了しました。<br />募集要項をご覧になれます。</Typography>
+                </Alert>
+                </Grid>
                 <Grid container direction="column" justifyContent="center" alignItems="center">
                 <Timeline position="right" sx={{[`& .${timelineItemClasses.root}:before`]: {flex: 0, padding: 0},}}>
                     <TimelineItem>
@@ -71,9 +76,7 @@ const Volunteer: React.FunctionComponent = () =>{
                                 下のボタンをクリックして応募に進んでください。<br />
                                 (GoogleFormにアクセスします。)
                             </Typography>
-                            <a target="_blank" href="https://forms.gle/ox7d7PQt1AhQxgM27">
-                            <Chip label="応募フォーム" icon={<LaunchIcon />} style={{marginTop: "10px"}} />
-                            </a>
+                            <Chip label="募集終了" style={{marginTop: "10px"}} />
                         </TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
