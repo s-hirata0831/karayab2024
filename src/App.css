@@ -166,6 +166,23 @@
   font-size: clamp(5px, 3vw, 20px);
 }
 
+.mapArea {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+.firstArea h2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(5px, 3.5vw, 30px);
+}
+
 span.headerFont {
   font-family: "Zen Kurenaido", sans-serif;
   font-style: normal;
