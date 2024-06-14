@@ -146,26 +146,29 @@ const home: React.FunctionComponent = () => {
         </Grid>
         <Grid item xs={12} md={4} display={'inline-flex'}>
           <Card sx={{ maxWidth: 345 }} style={{margin: '0 auto'}} >
+            <NavLink to="/performer">
             <CardMedia
               component="img"
               alt="leaders"
               height="180"
               image={leaders}
             />
+            </NavLink>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" fontFamily={'"Zen Kurenaido"'}>
                 運営情報
               </Typography>
               <Typography variant="body2" color="text.secondary" fontFamily={'"BIZ UDPGothic"'}>
                 イベント運営の裏側やお知らせを掲載します。<br />
-                運営も舞鶴の高校生が主体となって盛り上げていきます！
+                運営も舞鶴の高校生が主体となって盛り上げていきます！<br />
+                運営：舞鶴高校生リーダーズサミット
               </Typography>
             </CardContent>
-            <Tooltip disableFocusListener title="現在準備中です。しばらくお待ちください。" placement="left-start">
             <CardActions>
-              <Button size="small">準備中</Button>
+              <NavLink to="/performer">
+              <Button size="small">詳細を見る</Button>
+              </NavLink>
             </CardActions>
-            </Tooltip>
           </Card>
         </Grid>
       </Grid>

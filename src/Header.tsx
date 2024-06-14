@@ -19,6 +19,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 import MailIcon from '@mui/icons-material/Mail';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 interface Props {
   /**
@@ -50,6 +51,10 @@ function DrawerAppBar(props: Props) {
         <InstagramIcon style={{color:"black"}} />
       </Link>
       <Typography style={{color: "white"}}>__</Typography>
+      <Link href="https://github.com/s-hirata0831/karayab2024">
+        <GitHubIcon style={{ color: "black" }} />
+      </Link>
+      <Typography style={{color: "white"}}>__</Typography>
       <Link href="mailto:karayab2024@gmail.com">
         <MailIcon style={{ color: "black" }} />
       </Link>
@@ -74,6 +79,13 @@ function DrawerAppBar(props: Props) {
             <ListItemButton sx={{ textAlign: 'center' }} style={{color: 'black', textAlign: 'center'}}>
               <NavLink style={{ color: "black", textDecoration: 'none' }} to="/volunteer">
                 <ListItemText primary="ボランティア" />
+              </NavLink>
+            </ListItemButton>
+          </ListItem>
+          <ListItem disablePadding>
+            <ListItemButton sx={{ textAlign: 'center' }} style={{color: 'black', textAlign: 'center'}}>
+              <NavLink style={{ color: "black", textDecoration: 'none' }} to="/performer">
+                <ListItemText primary="運営情報" />
               </NavLink>
             </ListItemButton>
           </ListItem>
@@ -140,12 +152,22 @@ function DrawerAppBar(props: Props) {
             </NavLink>
             <NavLink style={{ color: "white", textDecoration: 'none' }} to="/performer">
               <Button sx={{ color: "white" }}>
-                参加者の方へ
+                運営情報
               </Button>
             </NavLink>
             <Link href="https://www.instagram.com/karayab_2024">
               <Button sx={{color: "white"}}>
                 <InstagramIcon style={{ color: "white" }} />
+              </Button>
+            </Link>
+            <Link href="https://github.com/s-hirata0831/karayab2024">
+              <Button sx={{color: "white"}}>
+                <GitHubIcon style={{ color: "white" }} />
+              </Button>
+            </Link>
+            <Link href="mailto:karayab2024@gmail.com">
+              <Button sx={{color: "white"}}>
+                <MailIcon style={{ color: "white" }} />
               </Button>
             </Link>
           </Box>
