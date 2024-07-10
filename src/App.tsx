@@ -12,20 +12,16 @@ import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import loadingLogo from './tmp/lodadingView.png';
-import maizuru from './tmp/maizuru.png';
+import maizuru from './tmp/after.jpeg';
 import student from './tmp/student.jpg';
 import event from './tmp/event.jpg';
 import leaders from './tmp/leaders.jpeg';
 import poster from './tmp/poster.jpeg';
-import timeTable from './tmp/timeTable.jpg';
-import layout from './tmp/layout.jpg';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import Alert from '@mui/material/Alert';
 import { StyledEngineProvider } from '@mui/material';
-import Link from '@mui/material/Link';
 import Iframe from "react-iframe";
 import sponcer from './tmp/sponcer.jpg';
 import specialThanks from './tmp/specialThanks.jpg';
+import radio from './tmp/radio.jpg';
 
 const home: React.FunctionComponent = () => {
   window.scrollTo({top: 0, behavior: "instant"})
@@ -49,9 +45,15 @@ const home: React.FunctionComponent = () => {
           <img src={maizuru} alt="Maizuru" className='video' />
         </div>
       </div>
+      <Grid container spacing={2} alignItems={'flex-start'} justifyContent={'space-evenly'} direction={'row'} style={{marginTop: '10px', marginBottom: '10px'}}>
+      <Grid item xs={12} md={4} />
+      <Grid item xs={12} md={4}>
       <div className='day'>
-        <h1><span className='spot'>舞鶴赤レンガパーク5号棟</span><br /><span className="mainDay">2024.6.16(Sun)</span><br/><span className='underDay'>開催！</span></h1>
+        <h1><span className='spot'>舞鶴赤レンガパーク5号棟</span><br /><span className="mainDay">2024.6.16(Sun)</span><br/><span className='underDay'>1500名超の皆様<br />ご来場ありがとうございました！</span></h1>
       </div>
+      </Grid>
+      <Grid item xs={12} md={4} />
+      </Grid>
       <div className='poster'>
         <CardMedia component="img" width="600" image={poster} alt="student" sx={{ maxHeight: 345, objectFit: 'contain' }} />
       </div>
@@ -61,32 +63,37 @@ const home: React.FunctionComponent = () => {
           <h1>みんなの好きが集まる場所</h1>
           </span>
           <h3>高校生が自分の得意を発表できるイベント！<br/>歌、ダンス、写真、イラスト、キッチンカー、フリマなどなど。<br/>自分達の好きなことややってみたいことを<br/>舞鶴の高校生で作り上げる<br/>なんでもありのイベントで表現します！</h3><br />
-          <Grid container spacing={2} alignItems={'flex-start'} justifyContent={'space-evenly'} direction={'row'} style={{marginTop: '10px', marginBottom: '10px'}}>
-            <Grid item xs={12} md={2} />
-            <Grid item xs={12} md={4}>
-              <h2>ステージ発表タイムテーブル</h2>
-              <NavLink to="/contact">
-              <CardMedia component="img" width="600" image={timeTable} alt="timeTable" sx={{ maxHeight: 345, objectFit: 'contain' }} style={{marginBottom: '10px'}} />
-              </NavLink>
-            </Grid>
-            <Grid item xs={12} md={4}>
-              <h2>会場配置図</h2>
-              <NavLink to="/contact">
-              <CardMedia component="img" width="600" image={layout} alt="layout" sx={{ maxHeight: 345, objectFit: 'contain' }} />
-              </NavLink>
-            </Grid>
-            <Grid item xs={12} md={2} />
-          </Grid>
-          <Grid container direction="column" justifyContent="flex-end" alignItems="center">
-          <Link href="https://www.instagram.com/karayab_2024">
-          <Alert variant='outlined' icon={<InstagramIcon fontSize="inherit" />} severity='success' style={{marginLeft: '5px', marginRight: '5px'}}>
-           Instagramで情報発信中！当日インスタライブも実施予定！
-          </Alert>
-          </Link>
-          </Grid>
         </div>
       </div>
       <Grid container spacing={3} alignItems={'flex-start'} justifyContent={'space-evenly'} direction={'row'} style={{marginTop: '10px', marginBottom: '10px'}}>
+      <Grid item xs={12} md={2} />
+          <Grid item xs={12} md={4}>
+          <Card sx={{ maxWidth: 345 }} style={{margin: '0 auto'}}>
+            <CardMedia component="img" height="180" image={maizuru} alt="report the event" />
+              <CardContent>
+                <Typography component="div" variant="h5" fontFamily={'"Zen Kurenaido"'}>
+                  KARAYABイベントレポート
+                </Typography>
+                <Typography component="div" variant="subtitle1" color="text.secondary" fontFamily={'"BIZ UDPGothic"'} >
+                  イベント開催の様子をレポート！
+                </Typography>
+              </CardContent>
+          </Card>
+          </Grid>
+          <Grid item xs={12} md={4}>
+          <Card sx={{ maxWidth: 345 }} style={{margin: '0 auto'}} >
+            <CardMedia component="img" height="180" image={radio} alt="report the event" />
+              <CardContent>
+                <Typography component="div" variant="h5" fontFamily={'"Zen Kurenaido"'}>
+                  ラジオ出演
+                </Typography>
+                <Typography component="div" variant="subtitle1" color="text.secondary" fontFamily={'"BIZ UDPGothic"'} >
+                  FMまいづるに参加高校生が登場！
+                </Typography>
+              </CardContent>
+          </Card>
+          </Grid>
+          <Grid item xs={12} md={2} />
         <Grid item xs={12} md={4} display={'inline-flex'}>
           <Card sx={{ maxWidth: 345 }} style={{margin: '0 auto'}} >
             <NavLink to="/contact">
@@ -178,12 +185,12 @@ const home: React.FunctionComponent = () => {
           <span className='headerFont'>
           <h1>スポンサー様</h1>
           </span>
-          <h3>ご協賛いただきありがとうございます！</h3>
+          <h3>ご協賛いただきありがとうございました！</h3>
           <Grid container direction="column" justifyContent="flex-end" alignItems="center">
             <h3 className='sp'>特別協力(音響協力)</h3>
-            <CardMedia component="img" width="600" image={specialThanks} alt="layout" sx={{objectFit: 'contain' }} style={{width: '50vw', margin: 0}} />
+            <CardMedia component="img" image={specialThanks} alt="layout" sx={{objectFit: 'contain' }} style={{width: '40vw', margin: 0}} />
             <h3 className='sp'>協賛</h3>
-            <CardMedia component="img" width="600" image={sponcer} alt="layout" sx={{objectFit: 'contain' }} style={{width: '70vw'}} />
+            <CardMedia component="img" image={sponcer} alt="layout" sx={{objectFit: 'contain' }} style={{width: '70vw'}} />
           </Grid>
         </div>
       </div>

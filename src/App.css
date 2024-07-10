@@ -130,11 +130,12 @@
   font-family: "BIZ UDPGothic", sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: black;
-  color: rgb(55, 33, 131);
+  color: rgb(204, 208, 184);
   text-shadow: 0 0 15px white;
   text-align: center;
   font-size: clamp(5px, 3vw, 15px);
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 20px;
 }
 
 .sp {
@@ -144,14 +145,14 @@
 }
 
 .underDay {
-  color: black;
+  color: white;
 }
 
 .spot {
   font-family: "BIZ UDPGothic", sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: black;
+  color: white;
   text-shadow: 0 0 15px white;
   font-size: clamp(5px, 3vw, 15px);
   text-align: center;
