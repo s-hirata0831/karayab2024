@@ -70,6 +70,13 @@ function DrawerAppBar(props: Props) {
           </ListItem>
           <ListItem disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }} style={{color: 'black', textAlign: 'center'}}>
+              <NavLink style={{ color: "black", textDecoration: 'none' }} to="/report">
+                <ListItemText primary="当日レポート" />
+              </NavLink>
+            </ListItemButton>
+          </ListItem>
+          <ListItem disablePadding>
+            <ListItemButton sx={{ textAlign: 'center' }} style={{color: 'black', textAlign: 'center'}}>
               <NavLink style={{ color: "black", textDecoration: 'none' }} to="/contact">
                 <ListItemText primary="出演高校生" />
               </NavLink>
@@ -138,6 +145,11 @@ function DrawerAppBar(props: Props) {
             <NavLink style={{ color: "white", textDecoration: 'none' }} to="/">
               <Button sx={{ color: "white" }}>
                 Home
+              </Button>
+            </NavLink>
+            <NavLink style={{ color: "white", textDecoration: 'none' }} to="/report">
+              <Button sx={{ color: "white" }}>
+                当日レポート
               </Button>
             </NavLink>
             <NavLink style={{ color: "white", textDecoration: 'none' }} to="/contact">

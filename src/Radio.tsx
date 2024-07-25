@@ -12,7 +12,6 @@ import Grid from "@mui/material/Grid";
 import Link from '@mui/material/Link';
 import LooksOneIcon from '@mui/icons-material/LooksOne';
 import LooksTwoIcon from '@mui/icons-material/LooksTwo';
-
 import './App.css'
 
 const Radio: React.FunctionComponent = () =>{
