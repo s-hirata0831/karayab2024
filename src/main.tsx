@@ -9,6 +9,7 @@ import Volunteer from './Volunteer.tsx'
 import Performer from './Performer.tsx'
 import PanfPdf from './components/PanfPdf.tsx'
 import NotFound from './NotFound.tsx'
+import Radio from './Radio.tsx'
 import './firebase';
 
 ReactDOM.createRoot(document.getElementById('root')as HTMLElement).render(
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')as HTMLElement).render(
         <Route path="/volunteer" element={<Volunteer />} />
         <Route path="/Performer" element={<Performer />} />
         <Route path="/pdf_panf" element={<PanfPdf />} />
+        <Route path="/radio" element={<Radio />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

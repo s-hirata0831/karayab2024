@@ -82,7 +82,9 @@ const home: React.FunctionComponent = () => {
           </Grid>
           <Grid item xs={12} md={4}>
           <Card sx={{ maxWidth: 345 }} style={{margin: '0 auto'}} >
+            <NavLink to="/radio">
             <CardMedia component="img" height="180" image={radio} alt="report the event" />
+            </NavLink>
               <CardContent>
                 <Typography component="div" variant="h5" fontFamily={'"Zen Kurenaido"'}>
                   ラジオ出演
@@ -91,6 +93,11 @@ const home: React.FunctionComponent = () => {
                   FMまいづるに参加高校生が登場！
                 </Typography>
               </CardContent>
+              <CardActions>
+              <NavLink to="/radio">
+                <Button size="small">詳細を見る</Button>
+              </NavLink>
+              </CardActions>
           </Card>
           </Grid>
           <Grid item xs={12} md={2} />
