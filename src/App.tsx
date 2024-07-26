@@ -49,7 +49,7 @@ const home: React.FunctionComponent = () => {
       <Grid item xs={12} md={4} />
       <Grid item xs={12} md={4}>
       <div className='day'>
-        <h1><span className='spot'>舞鶴赤レンガパーク5号棟</span><br /><span className="mainDay">2024.6.16(Sun)</span><br/><span className='underDay'>1500名超の皆様<br />ご来場ありがとうございました！</span></h1>
+        <h1><span className='spot'>舞鶴赤レンガパーク5号棟</span><br /><span className="mainDay">2024.6.16(Sun)</span><br/><span className='underDay'>1458名の皆様<br />ご来場ありがとうございました！</span></h1>
       </div>
       </Grid>
       <Grid item xs={12} md={4} />
@@ -69,7 +69,9 @@ const home: React.FunctionComponent = () => {
       <Grid item xs={12} md={2} />
           <Grid item xs={12} md={4}>
           <Card sx={{ maxWidth: 345 }} style={{margin: '0 auto'}}>
+            <NavLink to="/report">
             <CardMedia component="img" height="180" image={maizuru} alt="report the event" />
+            </NavLink>
               <CardContent>
                 <Typography component="div" variant="h5" fontFamily={'"Zen Kurenaido"'}>
                   KARAYABイベントレポート
@@ -78,6 +80,11 @@ const home: React.FunctionComponent = () => {
                   イベント開催の様子をレポート！
                 </Typography>
               </CardContent>
+              <CardActions>
+                <NavLink to="/report">
+                  <Button size="small">詳細を見る</Button>
+                </NavLink>
+              </CardActions>
           </Card>
           </Grid>
           <Grid item xs={12} md={4}>
