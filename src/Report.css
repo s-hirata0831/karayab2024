@@ -49,3 +49,10 @@ p {
 .bold {
   font-weight: bold;
 }
+
+.caption {
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-style: normal;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}

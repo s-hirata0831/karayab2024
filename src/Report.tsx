@@ -5,6 +5,55 @@ import topImg from './tmp/after.jpeg'
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
+import Link from '@mui/material/Link';
+import leaders from './tmp/leaders.jpeg';
+import repo1_1 from './tmp/repo1-1.jpg';    
+import repo1_2 from './tmp/repo1-2.jpg';
+import repo2_1 from './tmp/repo2-1.jpg';
+import repo3_1 from './tmp/repo3-1.jpeg';
+import repo4_1 from './tmp/repo4-1.jpg';
+import repo4_2 from './tmp/repo4-2.jpg';
+import repo4_3 from './tmp/repo4-3.jpg';
+import repo5_1 from './tmp/repo5-1.jpg';
+import repo5_2 from './tmp/repo5-2.jpg';
+import repo5_3 from './tmp/repo5-3.jpg';
+import repo5_4 from './tmp/repo5-4.jpg';
+import repo5_5 from './tmp/repo5-5.jpg';
+import repo5_6 from './tmp/repo5-6.jpeg';
+import repo5_7 from './tmp/repo5-7.jpg';
+import repo5_8 from './tmp/repo5-8.jpg';
+import repo6_1 from './tmp/repo6-1.jpg';
+import repo6_2 from './tmp/repo6-2.jpg';
+import repo6_3 from './tmp/repo6-3.jpg';
+import repo7_1 from './tmp/repo7-1.jpg';
+import repo7_2 from './tmp/repo7-2.jpg';
+import repo7_3 from './tmp/repo7-3.jpg';
+import repo8_1 from './tmp/repo8-1.jpg';
+import repo8_2 from './tmp/repo8-2.jpg';
+import repo8_3 from './tmp/repo8-3.jpg';
+import repo8_4 from './tmp/repo8-4.jpg';
+import repo8_5 from './tmp/repo8-5.jpg';
+import repo8_6 from './tmp/repo8-6.jpg';
+import repo8_7 from './tmp/repo8-7.jpg';
+import repo8_8 from './tmp/repo8-8.jpg';
+import repo8_9 from './tmp/repo8-9.jpg';
+import repo8_10 from './tmp/repo8-10.jpg';
+import repo8_11 from './tmp/repo8-11.jpg';
+import repo8_12 from './tmp/repo8-12.jpeg';
+import repo9_1 from './tmp/repo9-1.jpeg';
+import repo9_2 from './tmp/repo9-2.jpeg';
+import repo10_1 from './tmp/repo10-1.jpg';
+import repo10_2 from './tmp/repo10-2.jpg';
+import repo11_1 from './tmp/repo11-1.jpg';
+import repo11_2 from './tmp/repo11-2.jpg';
+import repo12_1 from './tmp/repo12-1.jpg';
+import repo12_2 from './tmp/repo12-2.jpg';
+import repo13_1 from './tmp/repo13-1.jpg';
+import repo13_2 from './tmp/repo13-2.jpg';
+import repo14_1 from './tmp/repo14-1.jpg';
+import repo14_2 from './tmp/repo14-2.jpg';
+import repo15_1 from './tmp/repo15-1.jpg';
+import repo16_1 from './tmp/repo16-1.jpg';
 import './Report.css';
 
 const Report: React.FunctionComponent = () =>{
@@ -36,14 +85,40 @@ const Report: React.FunctionComponent = () =>{
                                 発端としては2月の初め東舞鶴高校、西舞鶴高校、日星高校、舞鶴高専から集まった5人のリーダーをもとに舞鶴リーダーズサミットを作り、週に2回赤レンガ(CVM)やzoomで会議を進めて行きました。<br />
                                 それぞれに得意な分野があり、それぞれのリーダーに<span className="bold">ステージ担当</span>、<span className="bold">作品展時担当</span>、<span className="bold">商品開発担当</span>などの役割を決めました。
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-start'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item xs={2} />
+                                <Grid item xs={12} md={8}>
+                                    <CardMedia component="img" image={leaders} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">高校生のリーダー達</span>
+                                </Grid>
+                                <Grid item xs={2} />
+                            </Grid>
                             <p>
                                 高校生で行ったこととしては、大きく分けて<span className="bold">4つ</span>あります。<br />
                                 1つ目は<span className="bold">高校生出演者募集</span>です。絵を描くのが得意だったリーダーを中心に出演者募集のチラシを作り舞鶴市の高校に通う全ての高校生に配りました。
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo1_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">高校生募集のチラシ</span>
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <CardMedia component="img" image={repo1_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">チラシ配布の様子</span>
+                                </Grid>
+                            </Grid>
                             <p>
                                 2つ目に<span className="bold">それぞれの担当の作業</span>です。作品展示では出演者の作品に合わせた展示パネルや額縁の用意、ステージ発表では楽器や照明を貸してくださる会社の方との打ち合わせ、
                                 商品開発では今回開発に関わってくださったmogmogさんとの打ち合わせを行いました。
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-start'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item xs={2} />
+                                <Grid item xs={12} md={8}>
+                                    <CardMedia component="img" image={repo2_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">商品開発打ち合わせの様子</span>
+                                </Grid>
+                                <Grid item xs={2} />
+                            </Grid>
                             <p>
                                 3つ目に<span className="bold">広報活動</span>です。高専生を中心にホームページの作成、インスタグラムの活用を初めたりイベント広報チラシを作りイベント情報を発信しました。
                             </p>
@@ -57,10 +132,34 @@ const Report: React.FunctionComponent = () =>{
                                 最終的にステージ発表では6組のバンド、4組のダンスグループ、4組の歌の歌唱、モノマネやマイナースポーツを紹介する16組が集まり、商品開発では2つの商品を開発しました。<br />
                                 そして作品展示では絵や切り絵、書道に生花、プログラミングの技術を使った自動販売機などを展示する10組が集まり、入り口での受付や会場準備をする高校生ボランティア28名<span className="bold">総勢90人</span>もの舞鶴の高校生が集まりKARAYAB当日を迎えることができました！
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-start'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item xs={2} />
+                                <Grid item xs={12} md={8}>
+                                    <CardMedia component="img" image={repo3_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">KARAYABを象徴するステージセット</span>
+                                </Grid>
+                                <Grid item xs={2} />
+                            </Grid>
                             <h2>イベント当日</h2>
                             <p>
                                 11時に始まった開会式では運営メンバーが思いを語り、よさこいにっぽん聖の迫力のあるパフォーマンスを皮切りにKARAYABはスタート！！
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo4_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">リーダーの高校生達</span>
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <CardMedia component="img" image={repo4_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">藤田くんの挨拶</span>
+                                </Grid>
+                                <Grid item xs={2} />
+                                <Grid item xs={12} md={8}>
+                                    <CardMedia component="img" image={repo4_3} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">よさこいパフォーマンス！</span>
+                                </Grid>
+                                <Grid item xs={2} />
+                            </Grid>
                             <p>
                                 会場に入ってまず目に入るのは作品展示のブース、そこで展示されているのは...!<br />
                                 <span className="bold">「なんでも切り絵隊」</span><br />
@@ -82,6 +181,32 @@ const Report: React.FunctionComponent = () =>{
                                 <span className="bold">「舞鶴工房」</span><br />
                                 高専のプログラミングの技術を使ったチロルチョコの自販機を展示！
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo5_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <CardMedia component="img" image={repo5_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo5_3} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <CardMedia component="img" image={repo5_4} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo5_5} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo5_6} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo5_7} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <CardMedia component="img" image={repo5_8} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                            </Grid>
                             <p>
                                 このように絵から生花まで！個性を持った高校生達の作品が展示されました！<br />
                                 入り口入ってすぐに展示されていたこともあり、来場者の全員が作品前で足を止め1つ1つの作品を熱心に見られていた姿が印象的でした。<br />
@@ -93,12 +218,37 @@ const Report: React.FunctionComponent = () =>{
                                 1つ目は<span className="bold">舞鶴の特産品で作られたブロックケーキ</span>です。大浦地区で育ったレモンや舞鶴茶を練り込んだ1口サイズのケーキがたくさん入っています、<br />
                                 2つ目は<span className="bold">万願寺あまとうを1本丸々使ったカレーパン</span>です！
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo6_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <CardMedia component="img" image={repo6_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item xs={2} />
+                                <Grid item xs={12} md={8}>
+                                    <CardMedia component="img" image={repo6_3} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item xs={2} />
+                            </Grid>
                             <p>
                                 なんとこの商品は大人気でKARAYABの開場から<span className="bold">30分</span>を待たずして用意していた80個の全てが売り切れました！！<br />
                                 これには本当に驚きました！食品販売ブースを見ていると幾つも買っていく人、何度も買いに来る人がたくさんいました。<br />
                                 私ももちろん食べたですが、1口で人気の訳がわかりました、ケーキはとってもしっとりとしていて、レモンの爽やかさ、舞鶴茶の香りがすっと抜けていく感覚がありました。<br />
-                                カレーパンも万願寺はもちろんスパイスからこだわったカレーがとっても美味しく歩きながらでも食べやすい美味しいカレーパンでした。
+                                カレーパンも万願寺はもちろんスパイスからこだわったカレーがとっても美味しく歩きながらでも食べやすい美味しいカレーパンでした。<br />
+                                (食レポ上手っ！！ by HPの中の人)
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item alignContent={'center'} xs={4} md={4}>
+                                    <CardMedia component="img" image={repo7_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item xs={4} md={4}>
+                                    <CardMedia component="img" image={repo7_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item xs={4} md={4}>
+                                    <CardMedia component="img" image={repo7_3} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                            </Grid>
                             <p>
                                 お腹を満たして赤れんがを進むと正面にあるのは横幅6メートルもある大きなステージ、いくつもの照明焚かれKARAYABをイメージした裏幕が降りています！<br />
                                 そこで1日音楽を聞かせてくれたのは...!
@@ -135,6 +285,44 @@ const Report: React.FunctionComponent = () =>{
                                 <span className="bold">「ストロベリーズ」</span><br />
                                 ラストを飾るにふさわしい5人バンド熱気溢れたバンド！
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo8_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <CardMedia component="img" image={repo8_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo8_3} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <CardMedia component="img" image={repo8_4} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo8_5} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo8_6} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo8_7} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <CardMedia component="img" image={repo8_8} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo8_9} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo8_10} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo8_11} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo8_12} alt="leaders" sx={{objectFit: 'contain'}} />
+                                </Grid>
+                            </Grid>
                             <p>
                                 開場の11時から17時まで赤れんがで鳴り続けた彼ら、彼女らの音楽。<br />
                                 音楽の力の見せつけ、最後にはアンコールが止まないほど盛り上がりました！<br />
@@ -158,6 +346,16 @@ const Report: React.FunctionComponent = () =>{
                             <p>
                                 開催前日に赤れんがに集まった沢山の高校生のテキパキとした仕事ぶりでどんどんできていくステージや作品展示を見て<span className="bold">「本当にKARAYABができていく、、、」</span>と涙しそうになったことをよく覚えています。
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo9_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">会場が出来上がっていく...</span>
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <CardMedia component="img" image={repo9_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">準備も大人の力を貸していただきました！</span>
+                                </Grid>
+                            </Grid>
                             <p>
                                 遂に迎えた6月16日<br />
                                 長かったような短かったようなこの半年間にあった事が全身を凄いスピードで駆け巡り、座っても落ち着かないまま開場入り、出演者への挨拶も開会式での挨拶もこの時の事は全然覚えていません。<br />
@@ -169,6 +367,16 @@ const Report: React.FunctionComponent = () =>{
                             <p>
                                 1日止まなかった全てのステージの発表は想い、魂がこもっていてステージ出演者の真っ直ぐなま目が今でも鮮明に覚えています。
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo10_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">雨が降る一面も...</span>
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <CardMedia component="img" image={repo10_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">ボランティアも高校生が...!</span>
+                                </Grid>
+                            </Grid>
                             <br />
                             <p>
                                 あっという間に終わったKARAYAB2024来場者<span className="bold">1458人</span>、自信を持って<span className="bold">大成功</span>と言える結果で幕を閉じました
@@ -187,6 +395,16 @@ const Report: React.FunctionComponent = () =>{
                                 開催までに大人を何度何度も頼りました、ですが高校生の想いがなければこのイベントが開催できなかったことは濁りのない事実です。<br />
                                 高校生でもここまでできたという自信を胸に頑張っていきます！
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo11_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">最高のフィナーレ</span>
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <CardMedia component="img" image={repo11_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">赤レンガを背景に集合写真</span>
+                                </Grid>
+                            </Grid>
                             <br />
                             <h2>運営リーダーから</h2>
                             <p>ここからは運営を中心的に担った高校生からのコメントです。</p>
@@ -206,6 +424,16 @@ const Report: React.FunctionComponent = () =>{
                                 食品開発をした高校生の1人は将来製菓の学校に進みたいと話し、このイベントが高校生の将来につながっていくと確信しています。<br />
                                 KARAYABを通して高校生が自分の殻を破り、<span className="bold">新たな一歩を踏み出すきっかけ</span>となりました。
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo12_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">食品開発のみんなで</span>
+                                </Grid>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo12_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">たくさんの方にお買い求めいただきました</span>
+                                </Grid>
+                            </Grid>
                             <br />
                             <h2>ステージ発表・神/西舞鶴高校2年</h2>
                             <Divider />
@@ -225,11 +453,31 @@ const Report: React.FunctionComponent = () =>{
                                 初めてステージに立つ子や、既に経験がある子、それぞれが自分の目標に向かって努力する姿は本当にかっこよかったです。<br />
                                 この成功は、音響照明やステージづくりで協力してくださった企業、多くのスポンサーの方々のおかげです。本当にありがとうございました。
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo13_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">ステージ発表の様子</span>
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <CardMedia component="img" image={repo13_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">✨</span>
+                                </Grid>
+                            </Grid>
                             <h2>ボランティアの力</h2>
                             <p>
                                 また、今回のイベントが成功したのは、表で頑張っている人たちだけでなく、ボランティアの協力があってこそだと感じています。<br />
                                 前日から準備を手伝ってくれた人や、ステージを盛り上げてくれた人、形は様々ですが、このイベントは高校生リーダーズサミットだけでなく、観客やスポンサーを含めた多くのメンバーがいたからこそ成り立っているのだと思います。 
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item alignContent={'center'} xs={12} md={6}>
+                                    <CardMedia component="img" image={repo14_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">インスタライブ</span>
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <CardMedia component="img" image={repo14_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">ステージの準備</span>
+                                </Grid>
+                            </Grid>
                             <h2>フィナーレと来年への抱負</h2>
                             <p>
                                 最後にストロベリーズのアンコールが終わり、藤田くんが閉会の言葉を述べたとき、私も心に深い感動を覚えました。<br />
@@ -249,6 +497,14 @@ const Report: React.FunctionComponent = () =>{
                                 こんな気持ちになれたのはKARAYABに参加したり・来てくださった皆さんがいたからだと思っています。<br />
                                 KARAYABに参加してくださった皆様ほんとうにありがとうございました。
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-start'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item xs={2} />
+                                <Grid item xs={12} md={8}>
+                                    <CardMedia component="img" image={repo15_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">殻を破りました！</span>
+                                </Grid>
+                                <Grid item xs={2} />
+                            </Grid>
                             <h2>作品展示/HP・平田/舞鶴高専4年</h2>
                             <Divider />
                             <p>
@@ -271,9 +527,26 @@ const Report: React.FunctionComponent = () =>{
                                 今、このレポート記事のページを作成しながらイベントの余韻に浸っていますが、高校生を中心に舞鶴でイベントができたという事実は舞鶴の未来に明るい光を与えると言っても過言ではありません。<br />
                                 それくらいすごいことを成し遂げたということを誇りに思いますし、この流れを来年以降に繋げていかなくてはと感じている次第です。
                             </p>
+                            <Grid container spacing={2} alignContent={'flex-start'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item xs={2} />
+                                <Grid item xs={12} md={8}>
+                                    <CardMedia component="img" image={repo16_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <span className="caption">ラジオの公開収録も行いました</span>
+                                </Grid>
+                                <Grid item xs={2} />
+                            </Grid>
                             <p>
                                 来年に向けてこれから準備が進んでいきますが、第1回となった今年の反省点を活かし、より多くの高校生が殻を破れる、梅雨の舞鶴の名物イベントとなるよう尽力してまいります。
                             </p>
+                            <br />
+                            <Grid container spacing={2} alignContent={'flex-start'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
+                                <Grid item xs={2} />
+                                <Grid item xs={12} md={8}>
+                                    <span className="caption">レポート記事おわり</span><br />
+                                    <Link href="https://aaa">KARAYABの写真はこちらから！</Link>
+                                </Grid>
+                                <Grid item xs={2} />
+                            </Grid>
                         </Grid>
                         <Grid item xs={2.5} />
                     </Grid> 
