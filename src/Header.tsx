@@ -77,6 +77,13 @@ function DrawerAppBar(props: Props) {
           </ListItem>
           <ListItem disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }} style={{color: 'black', textAlign: 'center'}}>
+              <Link href="https://s-hirata0831.github.io/karayab2024/">
+                <ListItemText primary="写真" sx={{ color: "Black" }} />
+              </Link>
+            </ListItemButton>
+          </ListItem>
+          <ListItem disablePadding>
+            <ListItemButton sx={{ textAlign: 'center' }} style={{color: 'black', textAlign: 'center'}}>
               <NavLink style={{ color: "black", textDecoration: 'none' }} to="/contact">
                 <ListItemText primary="出演高校生" />
               </NavLink>
@@ -152,6 +159,11 @@ function DrawerAppBar(props: Props) {
                 当日レポート
               </Button>
             </NavLink>
+            <Link href="https://s-hirata0831.github.io/karayab2024/">
+              <Button sx={{ color: "white" }}>
+                写真
+              </Button>
+            </Link>
             <NavLink style={{ color: "white", textDecoration: 'none' }} to="/contact">
               <Button sx={{ color: "white" }}>
                 出演高校生

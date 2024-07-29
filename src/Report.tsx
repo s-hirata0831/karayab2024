@@ -543,7 +543,7 @@ const Report: React.FunctionComponent = () =>{
                                 <Grid item xs={2} />
                                 <Grid item xs={12} md={8}>
                                     <span className="caption">レポート記事おわり</span><br />
-                                    <Link href="https://aaa">KARAYABの写真はこちらから！</Link>
+                                    <Link href="https://s-hirata0831.github.io/karayab2024/">KARAYABの写真はこちらから！</Link>
                                 </Grid>
                                 <Grid item xs={2} />
                             </Grid>
