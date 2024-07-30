@@ -77,7 +77,7 @@ function DrawerAppBar(props: Props) {
           </ListItem>
           <ListItem disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }} style={{color: 'black', textAlign: 'center'}}>
-              <Link href="https://s-hirata0831.github.io/karayab2024/">
+              <Link href="https://www.icloud.com/sharedalbum/ja-jp/#B0y5n8hH48secNF">
                 <ListItemText primary="写真" sx={{ color: "Black" }} />
               </Link>
             </ListItemButton>
@@ -159,7 +159,7 @@ function DrawerAppBar(props: Props) {
                 当日レポート
               </Button>
             </NavLink>
-            <Link href="https://s-hirata0831.github.io/karayab2024/">
+            <Link href="https://www.icloud.com/sharedalbum/ja-jp/#B0y5n8hH48secNF">
               <Button sx={{ color: "white" }}>
                 写真
               </Button>
