@@ -7,53 +7,6 @@ import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Link from '@mui/material/Link';
 import leaders from './tmp/leaders.jpeg';
-import repo1_1 from './tmp/repo1-1.jpg';    
-import repo1_2 from './tmp/repo1-2.jpg';
-import repo2_1 from './tmp/repo2-1.jpg';
-import repo3_1 from './tmp/repo3-1.jpeg';
-import repo4_1 from './tmp/repo4-1.jpg';
-import repo4_2 from './tmp/repo4-2.jpg';
-import repo4_3 from './tmp/repo4-3.jpg';
-import repo5_1 from './tmp/repo5-1.jpg';
-import repo5_2 from './tmp/repo5-2.jpg';
-import repo5_3 from './tmp/repo5-3.jpg';
-import repo5_4 from './tmp/repo5-4.jpg';
-import repo5_5 from './tmp/repo5-5.jpg';
-import repo5_6 from './tmp/repo5-6.jpeg';
-import repo5_7 from './tmp/repo5-7.jpg';
-import repo5_8 from './tmp/repo5-8.jpg';
-import repo6_1 from './tmp/repo6-1.jpg';
-import repo6_2 from './tmp/repo6-2.jpg';
-import repo6_3 from './tmp/repo6-3.jpg';
-import repo7_1 from './tmp/repo7-1.jpg';
-import repo7_2 from './tmp/repo7-2.jpg';
-import repo7_3 from './tmp/repo7-3.jpg';
-import repo8_1 from './tmp/repo8-1.jpg';
-import repo8_2 from './tmp/repo8-2.jpg';
-import repo8_3 from './tmp/repo8-3.jpg';
-import repo8_4 from './tmp/repo8-4.jpg';
-import repo8_5 from './tmp/repo8-5.jpg';
-import repo8_6 from './tmp/repo8-6.jpg';
-import repo8_7 from './tmp/repo8-7.jpg';
-import repo8_8 from './tmp/repo8-8.jpg';
-import repo8_9 from './tmp/repo8-9.jpg';
-import repo8_10 from './tmp/repo8-10.jpg';
-import repo8_11 from './tmp/repo8-11.jpg';
-import repo8_12 from './tmp/repo8-12.jpeg';
-import repo9_1 from './tmp/repo9-1.jpeg';
-import repo9_2 from './tmp/repo9-2.jpeg';
-import repo10_1 from './tmp/repo10-1.jpg';
-import repo10_2 from './tmp/repo10-2.jpg';
-import repo11_1 from './tmp/repo11-1.jpg';
-import repo11_2 from './tmp/repo11-2.jpg';
-import repo12_1 from './tmp/repo12-1.jpg';
-import repo12_2 from './tmp/repo12-2.jpg';
-import repo13_1 from './tmp/repo13-1.jpg';
-import repo13_2 from './tmp/repo13-2.jpg';
-import repo14_1 from './tmp/repo14-1.jpg';
-import repo14_2 from './tmp/repo14-2.jpg';
-import repo15_1 from './tmp/repo15-1.jpg';
-import repo16_1 from './tmp/repo16-1.jpg';
 import './Report.css';
 
 const Report: React.FunctionComponent = () =>{
@@ -99,11 +52,11 @@ const Report: React.FunctionComponent = () =>{
                             </p>
                             <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo1_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo1-1.jpg?raw=true" />
                                     <span className="caption">高校生募集のチラシ</span>
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                    <CardMedia component="img" image={repo1_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo1-2.jpg?raw=true" />
                                     <span className="caption">チラシ配布の様子</span>
                                 </Grid>
                             </Grid>
@@ -114,7 +67,7 @@ const Report: React.FunctionComponent = () =>{
                             <Grid container spacing={2} alignContent={'flex-start'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item xs={2} />
                                 <Grid item xs={12} md={8}>
-                                    <CardMedia component="img" image={repo2_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo2-1.jpg?raw=true" />
                                     <span className="caption">商品開発打ち合わせの様子</span>
                                 </Grid>
                                 <Grid item xs={2} />
@@ -135,7 +88,7 @@ const Report: React.FunctionComponent = () =>{
                             <Grid container spacing={2} alignContent={'flex-start'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item xs={2} />
                                 <Grid item xs={12} md={8}>
-                                    <CardMedia component="img" image={repo3_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo3-1.jpeg?raw=true" />
                                     <span className="caption">KARAYABを象徴するステージセット</span>
                                 </Grid>
                                 <Grid item xs={2} />
@@ -146,16 +99,16 @@ const Report: React.FunctionComponent = () =>{
                             </p>
                             <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo4_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo4-1.jpg?raw=true" />
                                     <span className="caption">リーダーの高校生達</span>
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                    <CardMedia component="img" image={repo4_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo4-2.jpg?raw=true" />
                                     <span className="caption">藤田くんの挨拶</span>
                                 </Grid>
                                 <Grid item xs={2} />
                                 <Grid item xs={12} md={8}>
-                                    <CardMedia component="img" image={repo4_3} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo4-3.jpg?raw=true" />
                                     <span className="caption">よさこいパフォーマンス！</span>
                                 </Grid>
                                 <Grid item xs={2} />
@@ -183,28 +136,28 @@ const Report: React.FunctionComponent = () =>{
                             </p>
                             <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo5_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo5-1.jpg?raw=true" />
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                    <CardMedia component="img" image={repo5_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo5-2.jpg?raw=true" />
                                 </Grid>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo5_3} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo5-3.jpg?raw=true" />
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                    <CardMedia component="img" image={repo5_4} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt"src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo5-4.jpg?raw=true" />
                                 </Grid>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo5_5} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo5-5.jpg?raw=true" />
                                 </Grid>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo5_6} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo5-6.jpeg?raw=true" />
                                 </Grid>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo5_7} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo5-7.jpg?raw=true" />
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                    <CardMedia component="img" image={repo5_8} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo5-8.jpg?raw=true" />
                                 </Grid>
                             </Grid>
                             <p>
@@ -220,14 +173,14 @@ const Report: React.FunctionComponent = () =>{
                             </p>
                             <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo6_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo6-1.jpg?raw=true" />
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                    <CardMedia component="img" image={repo6_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo6-2.jpg?raw=true" />
                                 </Grid>
                                 <Grid item xs={2} />
                                 <Grid item xs={12} md={8}>
-                                    <CardMedia component="img" image={repo6_3} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo6-3.jpg?raw=true" />
                                 </Grid>
                                 <Grid item xs={2} />
                             </Grid>
@@ -240,13 +193,13 @@ const Report: React.FunctionComponent = () =>{
                             </p>
                             <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item alignContent={'center'} xs={4} md={4}>
-                                    <CardMedia component="img" image={repo7_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo7-1.jpg?raw=true" />
                                 </Grid>
                                 <Grid item xs={4} md={4}>
-                                    <CardMedia component="img" image={repo7_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo7-2.jpg?raw=true" />
                                 </Grid>
                                 <Grid item xs={4} md={4}>
-                                    <CardMedia component="img" image={repo7_3} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo7-3.jpg?raw=true" />
                                 </Grid>
                             </Grid>
                             <p>
@@ -287,40 +240,40 @@ const Report: React.FunctionComponent = () =>{
                             </p>
                             <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo8_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo8-1.jpg?raw=true" />
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                    <CardMedia component="img" image={repo8_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo8-2.jpg?raw=true" />
                                 </Grid>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo8_3} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo8-3.jpg?raw=true" />
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                    <CardMedia component="img" image={repo8_4} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo8-4.jpg?raw=true" />
                                 </Grid>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo8_5} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo8-5.jpg?raw=true" />
                                 </Grid>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo8_6} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo8-6.jpg?raw=true" />
                                 </Grid>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo8_7} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo8-7.jpg?raw=true" />
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                    <CardMedia component="img" image={repo8_8} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo8-8.jpg?raw=true" />
                                 </Grid>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo8_9} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo8-9.jpg?raw=true" />
                                 </Grid>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo8_10} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo8-10.jpg?raw=true" />
                                 </Grid>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo8_11} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo8-11.jpg?raw=true" />
                                 </Grid>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo8_12} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo8-12.jpeg?raw=true" />
                                 </Grid>
                             </Grid>
                             <p>
@@ -348,11 +301,11 @@ const Report: React.FunctionComponent = () =>{
                             </p>
                             <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo9_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo9-1.jpeg?raw=true" />
                                     <span className="caption">会場が出来上がっていく...</span>
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                    <CardMedia component="img" image={repo9_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo9-2.jpeg?raw=true" />
                                     <span className="caption">準備も大人の力を貸していただきました！</span>
                                 </Grid>
                             </Grid>
@@ -369,11 +322,11 @@ const Report: React.FunctionComponent = () =>{
                             </p>
                             <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo10_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo10-1.jpg?raw=true" />
                                     <span className="caption">雨が降る一面も...</span>
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                    <CardMedia component="img" image={repo10_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo10-2.jpg?raw=true" />
                                     <span className="caption">ボランティアも高校生が...!</span>
                                 </Grid>
                             </Grid>
@@ -397,11 +350,11 @@ const Report: React.FunctionComponent = () =>{
                             </p>
                             <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo11_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo11-1.jpg?raw=true" />
                                     <span className="caption">最高のフィナーレ</span>
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                    <CardMedia component="img" image={repo11_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo11-2.jpg?raw=true" />
                                     <span className="caption">赤レンガを背景に集合写真</span>
                                 </Grid>
                             </Grid>
@@ -426,11 +379,11 @@ const Report: React.FunctionComponent = () =>{
                             </p>
                             <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo12_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo12-1.jpg?raw=true" />
                                     <span className="caption">食品開発のみんなで</span>
                                 </Grid>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo12_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo12-2.jpg?raw=true" />
                                     <span className="caption">たくさんの方にお買い求めいただきました</span>
                                 </Grid>
                             </Grid>
@@ -455,11 +408,11 @@ const Report: React.FunctionComponent = () =>{
                             </p>
                             <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo13_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo13-1.jpg?raw=true" />
                                     <span className="caption">ステージ発表の様子</span>
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                    <CardMedia component="img" image={repo13_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo13-2.jpg?raw=true" />
                                     <span className="caption">✨</span>
                                 </Grid>
                             </Grid>
@@ -470,11 +423,11 @@ const Report: React.FunctionComponent = () =>{
                             </p>
                             <Grid container spacing={2} alignContent={'flex-end'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item alignContent={'center'} xs={12} md={6}>
-                                    <CardMedia component="img" image={repo14_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo14-1.jpg?raw=true" />
                                     <span className="caption">インスタライブ</span>
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                    <CardMedia component="img" image={repo14_2} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo14-2.jpg?raw=true" />
                                     <span className="caption">ステージの準備</span>
                                 </Grid>
                             </Grid>
@@ -500,7 +453,7 @@ const Report: React.FunctionComponent = () =>{
                             <Grid container spacing={2} alignContent={'flex-start'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item xs={2} />
                                 <Grid item xs={12} md={8}>
-                                    <CardMedia component="img" image={repo15_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo15-1.jpg?raw=true" />
                                     <span className="caption">殻を破りました！</span>
                                 </Grid>
                                 <Grid item xs={2} />
@@ -530,7 +483,7 @@ const Report: React.FunctionComponent = () =>{
                             <Grid container spacing={2} alignContent={'flex-start'} justifyContent={'center'} direction={'row'} style={{paddingRight: '5%', paddingLeft: '5%', paddingBottom: '0', marginBottom: '0', marginTop: '0', textAlign: 'center'}}>
                                 <Grid item xs={2} />
                                 <Grid item xs={12} md={8}>
-                                    <CardMedia component="img" image={repo16_1} alt="leaders" sx={{objectFit: 'contain'}} />
+                                    <img className="pt" src="https://github.com/s-hirata0831/karayab2024/blob/main/src/tmp/repo16-1.jpg?raw=true" />
                                     <span className="caption">ラジオの公開収録も行いました</span>
                                 </Grid>
                                 <Grid item xs={2} />

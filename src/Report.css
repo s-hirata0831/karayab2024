@@ -46,6 +46,12 @@ p {
   font-style: normal;
 }
 
+.pt {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
 .bold {
   font-weight: bold;
 }
