@@ -22,6 +22,7 @@ import Iframe from "react-iframe";
 import sponcer from './tmp/sponcer.jpg';
 import specialThanks from './tmp/specialThanks.jpg';
 import radio from './tmp/radio.jpg';
+import Link from '@mui/material/Link';
 
 const home: React.FunctionComponent = () => {
   window.scrollTo({top: 0, behavior: "instant"})
@@ -50,6 +51,15 @@ const home: React.FunctionComponent = () => {
       <Grid item xs={12} md={4}>
       <div className='day'>
         <h1><span className='spot'>舞鶴赤レンガパーク5号棟</span><br /><span className="mainDay">2024.6.16(Sun)</span><br/><span className='underDay'>1458名の皆様<br />ご来場ありがとうございました！</span></h1>
+      </div>
+      </Grid>
+      <Grid item xs={12} md={4} />
+      <Grid item xs={12} md={4} />
+      <Grid item xs={12} md={4}>
+      <div className='day'>
+        <Link href="https://www.karayab.jp/" sx={{ textDecoration: 'none', color: 'inherit' }} target="_blank">
+          <h1><span className='spot'>(本サイト運営は終了しました)</span><br /><span className="mainDay">KARAYAB新サイトはこちら</span></h1>
+        </Link>
       </div>
       </Grid>
       <Grid item xs={12} md={4} />

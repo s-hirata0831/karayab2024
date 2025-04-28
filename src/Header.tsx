@@ -47,7 +47,7 @@ function DrawerAppBar(props: Props) {
       </Typography>
       </NavLink>
       <Grid container direction="row" justifyContent="center" alignItems="flex-start">
-      <Link href="https://www.instagram.com/karayab_2024">
+      <Link href="https://www.instagram.com/karayab_2025">
         <InstagramIcon style={{color:"black"}} />
       </Link>
       <Typography style={{color: "white"}}>__</Typography>
@@ -55,12 +55,19 @@ function DrawerAppBar(props: Props) {
         <GitHubIcon style={{ color: "black" }} />
       </Link>
       <Typography style={{color: "white"}}>__</Typography>
-      <Link href="mailto:karayab2024@gmail.com">
+      <Link href="mailto:karayab.maizuru@gmail.com">
         <MailIcon style={{ color: "black" }} />
       </Link>
       </Grid>
       <Divider />
       <List>
+          <ListItem disablePadding>
+            <ListItemButton sx={{ textAlign: 'center' }} style={{color: 'black', textAlign: 'center'}}>
+              <Link href="https://www.karayab.jp/" target="_blank">
+                <ListItemText primary="KARAYAB新サイト" sx={{ color: "Black" }} />
+              </Link>
+            </ListItemButton>
+          </ListItem>
           <ListItem disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }} style={{color: "black", textAlign: 'center'}}>
             <NavLink style={{ color: "black", textDecoration: 'none' }} to="/">
@@ -149,6 +156,11 @@ function DrawerAppBar(props: Props) {
           </NavLink>
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }} >
+            <Link href="https://www.karayab.jp/" target="_blank">
+              <Button sx={{ color: "white" }}>
+                KARAYAB新サイト
+              </Button>
+            </Link>
             <NavLink style={{ color: "white", textDecoration: 'none' }} to="/">
               <Button sx={{ color: "white" }}>
                 Home
@@ -179,7 +191,7 @@ function DrawerAppBar(props: Props) {
                 運営情報
               </Button>
             </NavLink>
-            <Link href="https://www.instagram.com/karayab_2024">
+            <Link href="https://www.instagram.com/karayab_2025">
               <Button sx={{color: "white"}}>
                 <InstagramIcon style={{ color: "white" }} />
               </Button>
@@ -189,7 +201,7 @@ function DrawerAppBar(props: Props) {
                 <GitHubIcon style={{ color: "white" }} />
               </Button>
             </Link>
-            <Link href="mailto:karayab2024@gmail.com">
+            <Link href="mailto:karayab.maizuru@gmail.com">
               <Button sx={{color: "white"}}>
                 <MailIcon style={{ color: "white" }} />
               </Button>
